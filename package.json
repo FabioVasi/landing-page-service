@@ -10,5 +10,9 @@
   },
   "devDependencies": {
     "vite": "^5.3.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "swiper": "^11.1.4"
   }
 }

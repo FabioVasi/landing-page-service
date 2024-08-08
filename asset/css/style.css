@@ -11,3 +11,34 @@
 .upper-header{
     background-color: #EC6C5B;
 }
+.banner{
+    background-image: url(../img/billboard-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+h1{
+    font-size: 4rem;
+}
+form {
+    background-color: white;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+input {
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 0.5rem;
+}
+::placeholder {
+ 
+}
+.lens{
+    background-color: #4CC083;
+    width: 60px;
+    height: 40px;
+    border: none;
+}

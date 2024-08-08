@@ -42,3 +42,19 @@ input {
     height: 40px;
     border: none;
 }
+.numbers{
+    color: #EC6C5B;
+}
+.floating{
+    top: -50%;
+}
+h2{
+    font-size: 3rem;
+}
+.more{
+    background-color: #4CC083;
+    width: 220px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+}

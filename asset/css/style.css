@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --orange-bg: #EC6C5B;
+    --green-bg: #4CC083;
+    --light-bg: #E2F3F0;
+}
+.upper-header{
+    background-color: #EC6C5B;
+}

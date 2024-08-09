@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Code Circus</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./asset/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="./asset/css/style.css">
   </head>
   <body>
@@ -100,7 +101,7 @@
 
       </section>
 
-      <section id="about" class="about">
+      <section id="about" class="about pb-5">
 
         <div class="container text-center">
           <div class="row">
@@ -174,7 +175,7 @@
 
       </section>
 
-      <section id="categories" class="categories pt-5">
+      <section id="categories" class="categories py-5">
 
         <div class="container">
           <div class="d-flex justify-content-between align-content-center">
@@ -290,9 +291,12 @@
       <section id="courses" class="courses py-5">
 
         <div class="container">
+
           <p class="text-center fw-medium orange">Alcuni dei nostri corsi online più popolari</p>
           <h2 class="text-center mb-5">Esplora I Corsi Online</h2>
+
           <div class="row">
+
             <div class="col-3">
               <div class="card course rounded-3 p-3 mb-5  shadow border-0">
                 <img class="card-img-top rounded-3" src="./asset/img/item1.jpg" alt="">
@@ -331,6 +335,7 @@
                 </p>
               </div>
             </div>
+
             <div class="col-3">
               <div class="card course rounded-3 p-3 mb-5  shadow border-0">
                 <img class="card-img-top rounded-3" src="./asset/img/item2.jpg" alt="">
@@ -369,6 +374,7 @@
                 </p>
               </div>
             </div>
+
             <div class="col-3">
               <div class="card course rounded-3 p-3 mb-5  shadow border-0">
                 <img class="card-img-top rounded-3" src="./asset/img/item3.jpg" alt="">
@@ -407,6 +413,7 @@
                 </p>
               </div>
             </div>
+
             <div class="col-3">
               <div class="card course rounded-3 p-3 mb-5  shadow border-0">
                 <img class="card-img-top rounded-3" src="./asset/img/item4.jpg" alt="">
@@ -445,11 +452,76 @@
                 </p>
               </div>
             </div>
+            
           </div>
+
           <div class="d-flex justify-content-center pt-3">
             <a class="more align-content-center rounded-5 text-center text-white text-decoration-none" href="#">GUARDA TUTTI I CORSI</a>
           </div>
-          
+
+        </div>
+
+      </section>
+
+      <section id="reviews" class="reviews py-5 green_button_bg">
+
+        <div class="container text-center">
+
+          <p class="fw-medium orange">Cosa dicono gli studenti</p>
+          <h2 class="mb-5">Recensioni</h2>
+        
+        </div>
+
+        <div class="container swiper">
+          <div class="slide-content">
+
+            <div class="card-wrapper swiper-wrapper">
+
+              <div class="card border-0 bg-transparent swiper-slide">
+
+                <div class="card-content text-center">
+                  <p class="description fw-medium fs"></p>
+                  <p class="pt-3">
+                    
+                  </p>
+                  <h5 class="name fw-bold"></h5>
+                </div>
+
+              </div>
+
+              <div class="card border-0 bg-transparent swiper-slide">
+
+                <div class="card-content text-center">
+                  <p class="description fw-medium fs"></p>
+                  <p class="pt-3">
+                    
+                  </p>
+                  <h5 class="name fw-bold"></h5>
+                </div>
+
+              </div>
+
+              <div class="card border-0 bg-transparent swiper-slide">
+
+                <div class="card-content text-center">
+                  <p class="description fw-medium fs"></p>
+                  <p class="pt-3">
+                    
+                  </p>
+                  <h5 class="name fw-bold"></h5>
+                </div>
+
+              </div>
+
+
+            </div>
+
+          </div>
+
+          <div class="swiper-pagination">
+            <div class="swiper-border"></div>
+          </div>
+
         </div>
 
       </section>
@@ -461,8 +533,8 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/733087894c.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-    <script type="module" src="./asset/js/main.js"></script>
+    <script src="./asset/js/swiper-bundle.min.js"></script>
+    <script src="./asset/js/main.js"></script>
   </body>
 </html>

@@ -7,6 +7,24 @@
     --orange-bg: #EC6C5B;
     --green-bg: #4CC083;
     --light-bg: #E2F3F0;
+    --grey-color: #6f757e;
+    --yellow-color: #f8bd63;
+    --grey-button-bg: #e1e5ec;
+    --green-button-bg: #e4f2f0;
+    --red-button-bg: #ffe9e7;
+    --yellow-button-bg: #ffedd3;
+}
+.orange{
+    color: #EC6C5B;
+}
+.bg_orange{
+    background-color: #EC6C5B;
+}
+.green{
+    color: #4CC083;
+}
+.light{
+    color: #E2F3F0;
 }
 .upper-header{
     background-color: #EC6C5B;
@@ -33,9 +51,6 @@ input {
     width: 100%;
     padding: 0.5rem;
 }
-::placeholder {
- 
-}
 .lens{
     background-color: #4CC083;
     width: 60px;
@@ -57,4 +72,16 @@ h2{
     height: 60px;
     font-size: 18px;
     font-weight: bold;
+}
+.grey_button_bg{
+    background-color: #e1e5ec;
+}
+.green_button_bg{
+    background-color: #e4f2f0;
+}
+.red_button_bg{
+    background-color: #ffe9e7;
+}
+.yellow_button_bg{
+    background-color: #ffedd3;
 }

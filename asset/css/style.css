@@ -70,7 +70,6 @@ h2{
     background-color: #4CC083;
     width: 220px;
     height: 60px;
-    font-size: 18px;
     font-weight: bold;
 }
 .grey_button_bg{
@@ -84,4 +83,12 @@ h2{
 }
 .yellow_button_bg{
     background-color: #ffedd3;
+}
+.author{
+    color: #6f757e;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+.course{
+    height: 410px;
 }
